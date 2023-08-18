@@ -7,3 +7,13 @@ laser_to_imu:
          0.0, 1.0, 0.0, 0.0,
          0.0, 0.0, 1.0, 0.0,
          0.0, 0.0, 0.0, 1.0]
+
+bag : 
+  bool : "T"
+  path : "/home/mgkim/Desktop/Data-ssd/ICCV23_Challenge_LI/bag/SubT_MRS_Final_Challenge_UGV1/raw_data"
+
+topic : 
+  lidar : "/velodyne_packets"
+  imu : "/imu/data"
+  tf : "/tf"
+  

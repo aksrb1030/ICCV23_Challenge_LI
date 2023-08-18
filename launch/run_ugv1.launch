@@ -1,0 +1,9 @@
+<launch>
+
+    <arg name="project" default="iccv23_li"/>
+
+    <rosparam file="$(find iccv23_li)/config/SubT_MRS_Final_Challenge_UGV1.yaml" command="load" />
+
+    <node pkg="$(arg project)" type="$(arg project)"   name="$(arg project)"    output="screen"/>
+
+</launch>

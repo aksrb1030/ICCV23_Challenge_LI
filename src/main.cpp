@@ -1,7 +1,14 @@
-#include<iostream>
+#include "utility.h"
+#include "dataHandler.h"
 
-int main(int argc, char const *argv[])
+int main(int argc, char **argv)
 {
-    std::cout << "1 " << "\n";
+
+    ros::init(argc, argv, "iccv23_li");
+
+    dataHandler dh;
+
+    ros::spin();
+
     return 0;
 }

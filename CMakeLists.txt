@@ -13,6 +13,7 @@ find_package(Boost REQUIRED)
 find_package(Boost COMPONENTS filesystem thread REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
+  velodyne_msgs
   geometry_msgs
   nav_msgs
   sensor_msgs
@@ -44,7 +45,7 @@ catkin_package(
   INCLUDE_DIRS include
 )
 
-add_executable(iccv23_li src/main.cpp)
+add_executable(iccv23_li src/main.cpp src/dataHandler.cpp)
 
 target_include_directories(iccv23_li PRIVATE ${PCL_INCLUDE_DIRS})
 target_link_libraries(iccv23_li ${catkin_LIBRARIES} ${PCL_LIBRARIES} ${libLAS_LIBRARIES} ${Boost_LIBRARIES} /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4)

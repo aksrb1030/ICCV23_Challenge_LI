@@ -6,31 +6,25 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/mgkim/catkin_ws/devel/include/**",
+        "${workspaceFolder}/**",
+        "~/catkin_ws/devel/include/**",
         "/opt/ros/noetic/include/**",
-        "/home/mgkim/catkin_ws/src/autoever_lps/include/**",
-        "/home/mgkim/catkin_ws/src/FAST_LIO/include/**",
-        "/home/mgkim/catkin_ws/src/file_player_mulran/include/**",
-        "/home/mgkim/catkin_ws/src/global_registration/include/**",
-        "/home/mgkim/catkin_ws/src/gtsamEx/include/**",
-        "/home/mgkim/catkin_ws/src/Hesai_re/include/**",
-        "/home/mgkim/catkin_ws/src/imu_lss/include/**",
-        "/home/mgkim/catkin_ws/src/SC-LIO-SAM/SC-LIO-SAM/include/**",
-        "/home/mgkim/catkin_ws/src/make_alley/include/**",
-        "/home/mgkim/catkin_ws/src/make_alley_16/include/**",
-        "/home/mgkim/catkin_ws/src/merge_lps/include/**",
-        "/home/mgkim/catkin_ws/src/merge_lps_itsk/include/**",
-        "/home/mgkim/catkin_ws/src/mt_lam_sw/include/**",
-        "/home/mgkim/catkin_ws/src/mt_lps/include/**",
-        "/home/mgkim/catkin_ws/src/mt_lss_v2/include/**",
-        "/home/mgkim/catkin_ws/src/HesaiLidar_Swift_ROS/pandar_pointcloud/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "/usr/local/include/**",
+        "/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include/**",
+        "/usr/lib/x86_64-linux-gnu/glibmm-2.4/include/**",
+        "/usr/lib/x86_64-linux-gnu/sigc++-2.0/include/**",
+        "/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include/**",
+        "/usr/lib/x86_64-linux-gnu/giomm-2.4/include/**",
+        "/usr/lib/x86_64-linux-gnu/pangomm-1.4/include/**",
+        "/usr/include/glm/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "gnu11",
       "cppStandard": "c++14"
+      
     }
   ],
   "version": 4
